@@ -1,0 +1,11 @@
+<resources>
+
+    <string name="app_name">BottleRocket</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="phonelabel">"Phone : "</string>
+    <string name="storelabel">"Store : "</string>
+    <string name="addresslabel">"Address : "</string>
+    <string name="Locationlabel">"Location : "</string>
+
+</resources>

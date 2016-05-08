@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+
+    <ImageView
+       android:id="@+id/store_logo"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:minHeight="100dp"
+       android:minWidth="200dp"
+       android:layout_alignParentLeft="true"/>
+
+    <TextView
+        android:id="@+id/phonelabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/store_logo"
+        android:textStyle="bold"
+        android:text="@string/phonelabel" />
+
+    <TextView
+        android:id="@+id/phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/store_logo"
+        android:layout_toRightOf="@+id/phonelabel" />
+
+    <TextView
+        android:id="@+id/storelabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/phonelabel"
+        android:textStyle="bold"
+        android:text="@string/storelabel" />
+
+    <TextView
+        android:id="@+id/store"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/phone"
+        android:layout_toRightOf="@+id/storelabel" />
+
+
+   <TextView
+        android:id="@+id/addresslabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/storelabel"
+       android:textStyle="bold"
+        android:text="@string/addresslabel" />
+
+    <TextView
+        android:id="@+id/address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/store"
+        android:layout_toRightOf="@+id/addresslabel" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/city"
+        android:paddingLeft="60dp"
+        android:layout_marginRight="5dp"
+        android:layout_below="@+id/address"/>
+
+    <TextView
+        android:id="@+id/locationLable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/city"
+        android:textStyle="bold"
+        android:text="@string/Locationlabel" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/locationDetails"
+        android:layout_below="@+id/city"
+        android:layout_toRightOf="@+id/locationLable" />
+
+
+</RelativeLayout>
